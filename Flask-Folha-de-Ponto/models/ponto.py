@@ -1,6 +1,5 @@
 # app/ponto.py
 from database.session import db
-from models.ponto import datetime
 
 class Ponto(db. model):
     __tablename__ = 'Ponto'
